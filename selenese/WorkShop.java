@@ -42,6 +42,7 @@ public class WorkShop {
 	
 	Actions ac = new Actions(driver);
 	ac.moveToElement(Mobiles).perform();
+	System.out.println("Moved to element Mobiles");
 	
 	try {
 		WebElement getPhone = wait.until(ExpectedConditions.visibilityOf(s25Ultra));
